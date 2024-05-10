@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Many Casts Did I Cancel?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <form id="form">
+        <label for="name">What is your character's name?</label>
+        <input type="text" id="name">
+        <span class="caption"></span>
+        <br>
+        <label for="log">Upload a log:</label>
+        <input type="file" id="log" name="log" accept=".log">
+        <br>
+        <button type="button" name="button" id="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <p id="placeHere">Total cancelled casts: </p>
+    <p id="uptime">Uptime lost: </p>
+
+</body>
+</html>
